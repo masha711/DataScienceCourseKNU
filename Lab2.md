@@ -54,7 +54,7 @@
 20 -0.9804349 20  c
 > y[10,2]
 [1] 10
-y[["cc"]]
+> y[["cc"]]
   [1] g o n d d o x u l p t z v r n x c t f c b o x n s l i l f s a z y y p q g v b q
  [41] v o b u h o l j t v k i o l l u z f i i s g r t i c d a e e i z q g o i i w g v
  [81] e n b k u p m m i d r o p w b t r d r r
