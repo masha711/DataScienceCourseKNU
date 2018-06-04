@@ -49,9 +49,11 @@
 [1] NA
 > mean(my.data[!is.na(my.data), "Ozone"], na.rm=TRUE)
 [1] 42.12931
+```
 7.Виведіть частину набору даних (subset) зі значенням «Ozone» > 31 та
 «Temp» > 90. Яке середнє (mean) значень «Solar.R» в цьому наборі даних
 (subset)?
+```r
 > data.subset <- subset(my.data, Ozone >31 & Temp > 90)
 > data.subset
     Ozone Solar.R Wind Temp Month Day
@@ -67,10 +69,15 @@
 127    91     189  4.6   93     9   4
 > mean(data.subset[,"Solar.R"])
 [1] 212.8
+```
 8.Яке середнє значення (mean) для «Temp» для червня («Month» дорівнює
 6)?
+```r
 > mean(subset(my.data, Month==6)[,"Temp"])
 [1] 79.1
+```
 9.Яке максимальне значення «Ozone» для травня («Month» дорівнює 5)?
+```r
 > max(subset(my.data, Month==5)[, "Ozone"], na.rm=TRUE)
 [1] 115
+```
