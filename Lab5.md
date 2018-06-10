@@ -89,5 +89,10 @@ NULL
 Length  Class   Mode 
      0   NULL   NULL 
 [1] 0
+> cr<- corr(directory1, 500)
+> head(cr);summary(cr)
+[1] -0.01895754 -0.15782860  0.25905718  0.36620108  0.72669389  0.05774168
+     Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
+-0.176233  0.008025  0.139113  0.165871  0.296031  0.726694 
 ```
 
