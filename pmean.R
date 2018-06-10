@@ -21,7 +21,7 @@ corr <- function(directory, threshold=0){
   result <- c()
   for (df in my_frame){
     if (sum(complete.cases(df)) > threshold){
-      res<-c(result, cor(df[['sulfate']], df[['nitrate']], use='pairwise.complete.obs'))
+      result <-c(result, cor(df[['sulfate']], df[['nitrate']], use='pairwise.complete.obs'))
     }
   }
   return(result)
